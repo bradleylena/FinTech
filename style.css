@@ -1,0 +1,188 @@
+html {
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+.navname {
+  display: flex;
+  gap: 20px;
+}
+.navname img {
+  border-radius: 25px;
+  padding-top: 20px;
+}
+.navname h3 {
+  font-size: 25px;
+  text-align: center;
+  padding-top: 15px;
+}
+.summary {
+  display: flex;
+  padding-top: 20px;
+  justify-content: space-around;
+}
+.balance {
+  border: 1px solid white;
+  padding: 5px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.income {
+  border: 1px solid white;
+  padding: 5px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.expenses {
+  border: 1px solid white;
+  padding: 5px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.finances form {
+  display: flex;
+  flex-direction: column;
+  padding-left: 400px;
+  padding-right: 200px;
+  padding-top: 100px;
+  gap: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 500px;
+}
+.finances input {
+  height: 30px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.finances select {
+  background-color: black;
+  color: white;
+  height: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.finances textarea {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  height: 70px;
+  background-color: black;
+  color: white;
+}
+.finances button {
+  height: 40px;
+  width: 120px;
+  margin-left: 200px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+.total {
+  display: flex;
+  padding-top: 50px;
+  gap: 20px;
+  justify-content: center;
+}
+.exportbtn {
+  padding-left: 200px;
+}
+.exportbtn button {
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.table {
+  padding-top: 50px;
+  padding-left: 100px;
+  gap: 10px;
+}
+.table th {
+  border: 1px solid white;
+  gap: 10px;
+  width: 200px;
+  border-radius: 2px;
+}
+
+.table td {
+  text-align: center;
+  border: 1px solid white;
+  height: 30px;
+  border-radius: 2px;
+}
+.total select {
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.total input {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: black;
+  color: white;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 450px;
+  padding-top: 200px;
+}
+.login h1 {
+  padding-left: 40px;
+  width: 300px;
+}
+.loginform {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.loginform input {
+  background-color: black;
+  color: white;
+  width: 300px;
+  height: 40px;
+  font-size: 20px;
+  gap: 20px;
+}
+.loginform button {
+  margin-top: 10px;
+  margin-left: 120px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: black;
+  color: white;
+}
+.loginform button a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}

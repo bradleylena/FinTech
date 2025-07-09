@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FinTrack</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- navbar-section  -->
+      <div class="navbar">
+        <div class="navlogo">
+          <h1>FIN-TRACK</h1>
+        </div>
+        <div class="navname">
+          <img
+            src="assets/20250706_1508_Professional LinkedIn Transformation_remix_01jzft2tyjeex90aavac37pq25.png"
+            alt="img"
+            width="70px"
+            height="70px"
+            draggable="false"
+            loading="lazy"
+          />
+          <h3>Welcome, Bradley Lenaiyarra!</h3>
+        </div>
+      </div>
+    </header>
+    <!-- summary-of-finances  -->
+    <section id="summary">
+      <div class="summary">
+        <div class="balance">
+          <h1>20,000</h1>
+          <p>Balance</p>
+        </div>
+        <div class="income">
+          <h1>50,000</h1>
+          <p>Income</p>
+        </div>
+        <div class="expenses">
+          <h1>30,000</h1>
+          <p>Expenses</p>
+        </div>
+      </div>
+    </section>
+    <!-- addition-of-finances  -->
+    <section id="finances">
+      <div class="finances">
+        <form action="add">
+          <input type="text" placeholder="Amount" />
+          <select name="transactiontype" id="transactiontype">
+            <option value="select transaction type">
+              Select transaction type
+            </option>
+            <option value="M-Pesa">M-Pesa</option>
+            <option value="Cash">Cash</option>
+            <option value="Credit-Card">Credit Card</option>
+          </select>
+          <textarea
+            name="description"
+            id="description"
+            placeholder="Description"
+          ></textarea>
+          <button type="submit">ADD RECORD</button>
+        </form>
+      </div>
+    </section>
+    <!-- transaction-table  -->
+    <section id="totaltransaction">
+      <div class="total">
+        <select name="total" id="total">
+          <option value="1">All</option>
+          <option value="1">select</option>
+          <option value="1">select</option>
+        </select>
+        <search>
+          <input
+            type="text"
+            name="search"
+            id="search"
+            placeholder="Search by description"
+          />
+        </search>
+        <select name="date" id="date">
+          <option value="Date Range">Date range</option>
+          <option value="Date Range">1 month</option>
+          <option value="Date Range">2 month</option>
+          <option value="Date Range">3 month</option>
+        </select>
+        <div class="exportbtn">
+          <button type="button">Export</button>
+        </div>
+      </div>
+      <section id="table">
+        <div class="table">
+          <table>
+            <tr>
+              <th>#</th>
+              <th>Amount</th>
+              <th>Date</th>
+              <th>Trx Type</th>
+              <th>description</th>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+      </section>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
