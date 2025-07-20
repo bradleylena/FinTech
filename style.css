@@ -33,24 +33,43 @@ html {
   width: 200px;
   display: flex;
   flex-direction: column;
+  text-align: center;
+  background-color: orange;
   border-radius: 10px;
+  transition: all 0.6s ease;
+}
+.balance:hover {
+  background-color: rgba(255, 166, 0, 0.726);
 }
 .income {
   border: 1px solid white;
   padding: 5px;
   width: 200px;
   display: flex;
+  background-color: green;
   flex-direction: column;
   border-radius: 10px;
+  text-align: center;
+  transition: all 0.6s ease;
+}
+.income:hover {
+  background-color: rgba(0, 128, 0, 0.742);
 }
 .expenses {
   border: 1px solid white;
   padding: 5px;
   width: 200px;
+  text-align: center;
+  background-color: red;
   display: flex;
   flex-direction: column;
   border-radius: 10px;
+  transition: all 0.7s ease;
 }
+.expenses:hover {
+  background-color: rgba(255, 0, 0, 0.675);
+}
+
 .finances form {
   display: flex;
   flex-direction: column;
@@ -91,14 +110,19 @@ html {
 .finances button {
   height: 40px;
   width: 120px;
-  margin-left: 200px;
+  margin-left: 180px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-  background-color: black;
+  background-color: rgba(0, 128, 0, 0.929);
   color: white;
+  border: 1px solid white;
   border-radius: 10px;
   padding: 10px;
+  transition: all 0.6s ease;
+}
+.finances button:hover {
+  background-color: forestgreen;
 }
 .total {
   display: flex;
@@ -170,6 +194,7 @@ html {
   width: 300px;
   height: 40px;
   font-size: 20px;
+  border-radius: 10px;
   gap: 20px;
 }
 .loginform button {
